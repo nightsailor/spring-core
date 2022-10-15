@@ -40,6 +40,7 @@ java -jar -Dapple.awt.UIElement="true" target/constructorinjection-0.0.1-SNAPSHO
             <manifest>
               <mainClass>com.spring.app.Driver</mainClass>
             </manifest>
+            <manifestFile>src/main/resources/meta-inf/manifest.mf</manifestFile>
           </archive>
         </configuration>
       </plugin>
