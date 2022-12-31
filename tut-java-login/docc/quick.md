@@ -3,9 +3,19 @@ sudo find / -type d -wholename '*.vscode'
 
 sudo passwd shaikabdullah8045
 
+readlink -f $(which java)
+
+java -version
+
+javac -version
+
 echo $JAVA_HOME
 
 export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64
+
+mvn clean package
+
+mvn clean install
 
 mvn spring-boot:run
 
